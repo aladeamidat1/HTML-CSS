@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="todolist.css" rel="stylesheet" />
+  <title>To-Do List</title>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="page-banner">
+        <h1 class="title">TO-DO LIST</h1>
+        <p>Manage your day</p>
+      </div>
+    </header>
+
+    <form id="add-task-form">
+      <input type="text" id="taskInput" placeholder="Add a task..." />
+      <button type="submit">Add</button>
+    </form>
+
+    <form id="find-task-form">
+      <input type="text" id="findInput" placeholder="Find task by name" />
+      <button type="submit">Find Task</button>
+    </form>
+
+    <form id="delete-task-form">
+      <input type="text" id="deleteInput" placeholder="Enter task name to delete" />
+      <button type="submit">Delete Task</button>
+    </form>
+    <p>
+         <button id="toggleTasksBtn">Hide Tasks</button>
+
+    </p>
+    
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="list.js"></script>
+</body>
+</html>

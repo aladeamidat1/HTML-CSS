@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainWradder {
+    flex-shrink: 0;
+}
+
+.navaBarContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(77, 114, 46);
+    padding: 0px 70px;
+    color: #fff;
+}
+
+.navLinks ul {
+    list-style: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.signUp button {
+    font-size: 25px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* optional, for spacing */
+}
+
+.search-bar {
+    text-align: center;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.imagesContainer img {
+    width: 400px;
+    height: 400px;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.categoryAndPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productCard {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.productCard img {
+    width: 100%;
+    height: auto;
+}
+
+.categoryAndPrice {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navaBarContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color:rgb(77, 114, 46);
+    padding: 0px 70px;
+    color: #fff;
+    
+}
+
+.navLinks ul{
+    list-style: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navLinks a{
+    text-decoration: none ;
+    color: #fff;
+    font-size: 25px;
+}
+
+.signUp button{
+    font-size: 25px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imagesContainer img{
+    width: 400px;
+    height: 400px;
+}
+.imagesContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 70px
+}
+.categoryAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .search-bar {
+      text-align: center;
+    }
+
+    .search-input {
+      padding: 10px;
+      font-size: 16px;
+      width: 300px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    } */
